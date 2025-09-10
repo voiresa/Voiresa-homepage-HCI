@@ -4,7 +4,7 @@
 Description.
 
 #### Key Contributions:  
--   
+- I did...  
 
 ---
 
@@ -14,7 +14,7 @@ Description.
 Description.
 
 #### Key Contributions:  
--   
+- I did...  
 
 ---
 
@@ -24,6 +24,4 @@ Description.
 Description.
 
 #### Key Contributions:  
--   
-
-
+- I did...  
