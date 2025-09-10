@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="HCI Webpage" />
-    <meta name="author" content="Voiresa" />
+    <meta name="description" content="Academic Webpage" />
+    <meta name="author" content="yixin0313" />
     <title id="title"></title>
 
     <!-- Icon -->
@@ -77,40 +77,6 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
-    <style>
-        /* 添加一些样式以确保内容正确显示 */
-        #hciproject-md {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            margin-top: 1.5rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            color: #333;
-        }
-        
-        #hciproject-md h3 {
-            color: #4e54c8;
-            margin-top: 1.5rem;
-        }
-        
-        #hciproject-md p {
-            line-height: 1.6;
-        }
-        
-        .project-img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin: 1rem 0;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .loading-text {
-            text-align: center;
-            padding: 2rem;
-            color: #666;
-        }
-    </style>
-
 </head>
 
 <body id="page-top">
@@ -150,7 +116,7 @@
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/assets/img/photome.jpg">
+            <img class="shadow" src="static/assets/img/photome.png">
         </div>
     </div>
     <!-- Photo -->
@@ -172,16 +138,9 @@
     <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="hciproject">
         <div class="container px-5">
             <header>
-                <h2 id="hciproject-subtitle"><i class="bi bi-briefcase-fill"></i> HCI PROJECT </h2>
+                <h2 id="hciproject-subtitle"><i class="bi bi-briefcase-fill"></i> HCIPROJECT </h2>
             </header>
-            <div class="main-body" id="hciproject-md">
-                <div class="loading-text">
-                    <div class="spinner-border text-light" role="status">
-                        <span class="visually-hidden">Loading...</span>
-                    </div>
-                    <p class="mt-2 text-light">Loading HCI project content...</p>
-                </div>
-            </div>
+            <div class="main-body" id="hciproject-md"></div>
         </div>
     </section>
     <!-- hciproject -->
@@ -193,75 +152,13 @@
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/voiresa">Github</a>
+                <a id="github-link" href="https://github.com/senli1073">Github</a>
                 <span class="mx-1">&middot;</span>
                 <a id="license-link"
-                    href="https://github.com/voiresa/voiresa.github.io/blob/main/LICENSE">License</a>
+                    href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>
-
-    <!-- 添加Markdown加载脚本 -->
-    <script>
-        // 等待页面加载完成
-        document.addEventListener('DOMContentLoaded', function() {
-            // 加载HCI项目内容
-            loadMarkdownContent('hciproject-md', 'hciproject.md');
-            
-            // 如果需要，也可以加载其他Markdown内容
-            // loadMarkdownContent('home-md', 'home.md');
-        });
-        
-        // 加载和渲染Markdown内容的函数
-        function loadMarkdownContent(containerId, mdFile) {
-            const container = document.getElementById(containerId);
-            
-            // 显示加载状态
-            container.innerHTML = `
-                <div class="loading-text">
-                    <div class="spinner-border text-light" role="status">
-                        <span class="visually-hidden">Loading...</span>
-                    </div>
-                    <p class="mt-2 text-light">Loading content from ${mdFile}...</p>
-                </div>
-            `;
-            
-            // 获取Markdown文件
-            fetch(mdFile)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Failed to load ${mdFile}: ${response.status} ${response.statusText}`);
-                    }
-                    return response.text();
-                })
-                .then(markdown => {
-                    // 使用marked.js将Markdown转换为HTML
-                    const htmlContent = marked.parse(markdown);
-                    
-                    // 将HTML内容插入到容器中
-                    container.innerHTML = htmlContent;
-                    
-                    // 如果有MathJax，重新渲染数学公式
-                    if (typeof MathJax !== 'undefined') {
-                        MathJax.typesetPromise && MathJax.typesetPromise();
-                    }
-                })
-                .catch(error => {
-                    console.error('Error loading Markdown content:', error);
-                    container.innerHTML = `
-                        <div class="alert alert-danger" role="alert">
-                            <h4>Error Loading Content</h4>
-                            <p>Failed to load content from ${mdFile}. Please check:</p>
-                            <ul>
-                                <li>That the file <strong>${mdFile}</strong> exists</li>
-                                <li>That the file path is correct</li>
-                            </ul>
-                            <p>Error details: ${error.message}</p>
-                        </div>
-                    `;
-                });
-        }
-    </script>
 
 </body>
 
