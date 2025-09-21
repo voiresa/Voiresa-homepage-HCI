@@ -12,7 +12,7 @@ This project is dedicated to designing and developing aquatic-friendly perspecti
 
 - Collaborated on mind map development, improving structure and visual clarity.
 
-<img src="../static/assets/img/project1.png" alt="Project 1 Mindmap" style="width: 80%; height: auto; display: block; margin: 1rem auto; border-radius: 8px;">
+<img src="../static/assets/img/project1.png" alt="Project 1 Mindmap" style="width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px;">
 ---
 
 ### **PROJECT2**  
