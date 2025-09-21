@@ -13,7 +13,7 @@ This project is dedicated to designing and developing aquatic-friendly perspecti
 
 - Collaborated on mind map development, improving structure and visual clarity.
 
-<img src="static/assets/img/project1.png" alt="Mindmap for Project1" width="500" />
+<img src="Voiresa-homepage-HCI/static/assets/img/project1.png" alt="Mindmap for Project1" width="500" />
 ---
 
 ### **PROJECT2**  
