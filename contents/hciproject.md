@@ -15,7 +15,7 @@ This project is dedicated to designing and developing aquatic-friendly perspecti
 <img src="https://raw.githubusercontent.com/voiresa/Voiresa-homepage-HCI/main/static/assets/img/project1.png" alt="Project 1 Mindmap" style="width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px;">
 ---
 
-### **PROJECT2**  
+### **PROJECT2: APP Design for War-Affected Communities**  
 **October 2025**  
 
 #### Description:
