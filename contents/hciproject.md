@@ -22,25 +22,27 @@ This project is dedicated to designing and developing aquatic-friendly perspecti
 
 This project addresses human–computer interaction design in communities affected by armed conflict. Our goal was to provide civilians living with elevated stress and intermittent connectivity a source of accessible, culturally sensitive, and emotionally stable psychological support. Early interviews and desk research showed an acute shortage of mental-health services, fragmented information channels, disrupted schooling and family ties, and persistent concerns about privacy and safety. Against this backdrop, we framed the design challenge as creating an offline-capable, trustworthy, and approachable support experience, delivered through a mobile voice-and-text agent.
 
-##### Step-by-Step Process and Key Insights
+##### Interviews and Key Insights
 
 We advanced the research on two complementary tracks. First, we conducted semi-structured interviews with four participants from different conflict contexts, spanning ages twenty to forty-six, to surface lived pain points and behavioral patterns. Second, we reviewed literature and public resources on mental-health needs and crisis logistics to calibrate beyond-sample trends. Synthesizing these inputs, several themes emerged. Conflict significantly increases the risk of anxiety, depression, and post-traumatic stress; during evacuation and blackout periods people want a “safe, always-available buffer” for emotions; essential information is scattered and of uncertain credibility, which amplifies panic; prolonged interruption of education and family routines deepens a sense of powerlessness. These insights defined the contours of need and established our baseline for evaluating concepts.
 
-##### Problem Definition and Point of View
+##### PoVs
 
 From coded interview material and secondary sources, we articulated three guiding point-of-view statements. First, people under war-related stress need an easily reachable, empathetic support tool that offers emotional relief at any moment. Second, residents in conflict zones need reliable, personalized guidance to navigate safety and displacement without worsening fear and confusion. Third, families in extreme circumstances need mechanisms to reconnect and trace loved ones to restore a sense of certainty and safety. These statements became our criteria for selecting and refining solutions.
 
-##### Ideation and Down-Selection
+##### Ideation
 
 We generated three concept directions: a psychological support agent that functions even offline; a “calm dispatch” flow for evacuation safety; and a lead-aggregation system for family reconnection. Through rapid “speed-dating” evaluations with interviewees and a volunteer, we gathered immediate feedback on urgency, feasibility, and trust. The support agent consistently ranked as the most urgent and most deployable due to its high-frequency use cases and lower dependence on real-time data. Safety navigation and family tracing retained value for extreme scenarios, but their reliance on live data and strong privacy governance made near-term deployment harder. We therefore prioritized the support agent for prototyping.
 
-##### Solution and System Design
+##### System Design
 
 The resulting solution is a mobile application that offers text and voice interaction, emphasizes cultural and age sensitivity, and includes an offline fallback. Architecturally, the front end provides a light-weight interface for dialogue, breathing exercises, mood journaling, and a “therapeutic space.” The back end manages input handling and task routing, calling networked large-language-model services when available and switching to a local model and curated prompt library when offline, ensuring continuity under unstable connectivity. To address acute risk, the agent incorporates safety triage to flag potential self-harm or violence, adapts conversation strategies accordingly, and suggests appropriate escalation or referral. Language and tone are tuned to remain calming, non-judgmental, and clear.
 
 ##### Prototype and Interaction Highlights
 
-We built a vertical slice emphasizing conversational quality and the breathing-exercise flow, organized around a simple page sequence: Home, Breathing, Therapeutic Space, Mood Journal. The dialogue pathway supports multilingual use and seamless switching between text and voice. Different cultural and age configurations trigger tailored prompting strategies and scripts. Speech recognition and synthesis complete a hands-free loop so users can engage without staring at the screen in dark or crowded settings. In connected states the system defaults to an online model; in weak or no-network conditions it falls back to local inference and precomposed responses to preserve essential support.
+for our vertical design, the prompts are focused. Different cultural and age configurations trigger tailored prompting strategies and scripts. Speech recognition and synthesis complete a hands-free loop so users can engage without staring at the screen in dark or crowded settings. 
+
+We also built a horizontal slice emphasizing conversational quality and the breathing-exercise flow, organized around a simple page sequence: Home, Breathing, Therapeutic Space, Mood Journal. The dialogue pathway supports multilingual use and seamless switching between text and voice. In connected states the system defaults to an online model; in weak or no-network conditions it falls back to local inference and precomposed responses to preserve essential support.
 
 ##### Usability Testing and Findings
 
