@@ -84,10 +84,57 @@ Looking ahead, my plan is straightforward. I want to widen the interview sample 
 
 ---
 
-### **PROJECT3**  
+### **PROJECT3: XR Design for couples in Long Distance Relationship**  
 **November 2025**  
 
-Description.
+#### Project Description:
+This project addresses the experience of long-distance relationships among university students living across cities and time zones, particularly in the context of increasing mobility, migration, and study-abroad trends. Our goal was to reimagine how Social XR could foster a stronger sense of shared presence, emotional closeness, and everyday intimacy for couples who feel disconnected by physical distance and fragmented schedules. Interviews and speeddating sessions revealed that while students rely heavily on video calls and messaging, these tools fail to recreate the feeling of truly “being together,” often leading to loneliness, misaligned expectations, and a lack of shared routines. Participants expressed a desire for more immersive yet lightweight solutions that remain affordable, natural, and privacy-conscious
+
+##### Interviews and Key Insights
+We conducted semi-structured interviews with seven university students across different relationship statuses, including those in long-distance relationships and those considering study or migration abroad. We also reviewed broader trends in student mobility and long-distance relationship dynamics. 
+
+
+Key findings showed that while video calls and messaging remain primary communication tools, they fail to create emotional closeness or shared presence. Participants reported loneliness, fragmented routines, and a lack of meaningful co-experiences, but expressed interest in XR solutions that are immersive, affordable, and natural. The core desire was not just communication, but the feeling of “living together” despite distance.
+
+##### PoVs
+From the research, we defined three guiding points of view:
+
+- Long-distance couples need ways to feel emotionally and physically close beyond basic communication tools.
+
+- Partners across time zones require asynchronous interaction that still conveys care and presence.
+
+- Couples need a shared digital space that grows with their relationship to foster belonging and continuity.
+
+
+##### Ideation
+We explored multiple concepts including VR shared spaces, haptic suits, reconciliation environments, and AR companions. Through speed-dating evaluations, the VR shared space emerged as the most meaningful but needed to remain affordable and lightweight. We therefore integrated immersive co-creation with asynchronous features and virtual pet bonding, forming the final concept: EverPresence.
+
+
+##### Prototype and Interaction Highlights
+
+The prototype focused on two levels of experience: immersion and emotional trace. In the vertical slice, users enter a customizable virtual home, name and care for a shared pet, and interact with decorative objects that visually evolve over time. These interactions simulate cohabitation and shared responsibility.
+
+The horizontal slice emphasized the memo system and asynchronous cues. Partners can leave notes, reactions, or symbolic items that appear in the shared environment and persist as emotional markers. These moments reinforce continuity even when interaction is not simultaneous.
+
+User pathways were designed around simplicity: entering the shared space, interacting with the pet, placing or responding to memos, and customizing the environment. These flows aim to transform routine digital communication into a living, shared narrative.
+
+##### Usability Testing and Findings
+User testing showed strong emotional appeal and natural interaction, but highlighted areas for improvement such as avatar design, interaction clarity, pet responsiveness, and platform stability. Despite limitations, participants validated the concept’s potential to enhance emotional closeness.
+
+
+
+#### Key Contributions:  
+- Synthesized interview insights into core themes and PoVs
+
+- Co-developed interaction flows for shared spaces and pet bonding
+
+- Contributed to usability testing analysis and design refinement
+  
+#### My Reflection:  
+**My Reflection on This Project**
+
+
+
 
 #### Key Contributions:  
 - I did...  
