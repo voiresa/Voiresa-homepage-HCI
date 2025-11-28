@@ -125,7 +125,7 @@ The prototype focused on two levels of experience: immersion and emotional trace
 
 The horizontal slice emphasized the memo system and asynchronous cues. Partners can leave notes, reactions, or symbolic items that appear in the shared environment and persist as emotional markers. These moments reinforce continuity even when interaction is not simultaneous.
 
-<img src="https://raw.githubusercontent.com/voiresa/Voiresa-homepage-HCI/main/static/assets/img/proto2.png" alt="Project 3 Prototype2" style="width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px;">
+<img src="https://raw.githubusercontent.com/voiresa/Voiresa-homepage-HCI/main/static/assets/img/proti2.png" alt="Project 3 Prototype2" style="width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px;">
 
 User pathways were designed around simplicity: entering the shared space, interacting with the pet, placing or responding to memos, and customizing the environment. These flows aim to transform routine digital communication into a living, shared narrative.
 
