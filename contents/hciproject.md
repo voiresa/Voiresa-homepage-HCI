@@ -131,7 +131,7 @@ User pathways were designed around simplicity: entering the shared space, intera
 
 <img src="https://raw.githubusercontent.com/voiresa/Voiresa-homepage-HCI/main/static/assets/img/proto3.png" alt="Project 3 Prototype3" style="width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px;">
 
-##### Usability Testing and Findings
+#### Usability Testing and Findings
 User testing showed strong emotional appeal and natural interaction, but highlighted areas for improvement such as avatar design, interaction clarity, pet responsiveness, and platform stability. Despite limitations, participants validated the concept’s potential to enhance emotional closeness.
 
 #### Key Contributions:  
@@ -141,7 +141,6 @@ User testing showed strong emotional appeal and natural interaction, but highlig
 - Co-developed interaction flows for shared spaces and pet bonding
   
 #### My Reflection:  
-**My Reflection on This Project**
 
 This project reframed how I understand intimacy in digital spaces. Rather than focusing on technological spectacle, it emphasized emotional continuity, subtle presence, and small rituals of care. While synthesizing interview insights, I recognized how deeply students crave shared normalcy — not grand gestures, but everyday moments that reinforce belonging.
 
